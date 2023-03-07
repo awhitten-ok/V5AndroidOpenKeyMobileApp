@@ -48,13 +48,7 @@ public class TestRunner extends CapabilitiesManager {
    }
 
     @Test(groups = "cucumber", description = "Run Cucumber Features.", dataProvider = "scenarios")
-    public void
-
-
-
-
-
-    scenario(PickleWrapper pickleWrapper, FeatureWrapper featureWrapper) {
+    public void scenario(PickleWrapper pickleWrapper, FeatureWrapper featureWrapper) {
 
         testNGCucumberRunner.runScenario(pickleWrapper.getPickle());
     }
