@@ -148,6 +148,7 @@ public class CapabilitiesManager {
         //capabilities.setCapability("intentAction", "android.intent.action.LAUNCHER");
         //capabilities.setCapability("intentCategory", "android.intent.category.MAIN");
         capabilities.setCapability("chromedriverExecutableDir", "chromedriver/chromedriver.exe");
+        capabilities.setCapability("chromedriver_autodownload", "C://OpenKey Programs//OpenKeyMobileApp//chromedriver");
         //capabilities.setCapability("chromedriverExecutableDir", "C:\\OpenKey Programs\\OpenKeyMobileApp\\chromedriver\\chromedriver.exe");
         capabilities.setCapability("appium:chromeOptions", ImmutableMap.of("w3c", false));
         // Start Session in Android Device
